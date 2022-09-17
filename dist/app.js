@@ -12,7 +12,12 @@ function add(a, b) {
 }
 const result = add("Max", "Schwarz");
 result.split(" ");
-console.log(result);
+const fetchedUserData = {
+    id: "u1",
+    name: "Max",
+    // job: { title: "CEO", description: "My own company" },
+};
+// console.log(fetchedUserData?.job?.title);
 // type UnknownEmployee = Employee | Admin;
 // function printEmployeeInformation(emp: UnknownEmployee) {
 //   console.log("Name: " + emp.name);
