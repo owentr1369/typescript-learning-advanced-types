@@ -60,3 +60,7 @@ const input = document.getElementById("user-input");
 if (input) {
     input.value = "Hi there";
 }
+const errorBag = {
+    email: "Not a valid email!",
+    username: "Must start with a capital character!",
+};
